@@ -59,7 +59,7 @@
                     <img src="Images - Arnas\Carte-grise.png" class="img-middle-body">
                 </div>
                 <div class="card-child">
-                    <h2>Carte grise - Certificat d'immatriculation</h2>
+                    <h2><span>Carte grise - Certificat d'immatriculation</span></h2>
                 </div>
                 <div class="card-child">
                     <a href="#">
@@ -137,7 +137,7 @@
                     <img src="Images - Arnas\chapiteau-de-cirque.png" class="img-middle-body">
                 </div>
                 <div class="card-child">
-                    <h2>Cirques et spectacles itinérants</h2>
+                    <h2><span>Cirques et spectacles itinérants</span></h2>
                 </div>
                 <div class="card-child">
                     <a href="#">
@@ -160,11 +160,109 @@
             </div>
 
         </div>
-        <div class="middle-body-1">
+        <div class="middle-body-2">
             <h1>
                 Arrêtés
-            </h1>
-            
+            </h1> 
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\maison-municipale.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Arrêtés Municipaux</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\prefecteur.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Arrêtés Préféctoraux</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\reunion.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Délibération du conseil municipale</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\fiche-de-donnees.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Rapport d'activité</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\paysage-urbain.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Autorisation d'urbanisme</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\subvention.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Subvention</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>
+            <div href="#" class="card">
+                <div class="card-child">
+                    <img src="Images - Arnas\opinion-publique.png" class="img-middle-body">
+                </div>
+                <div class="card-child">
+                    <h2>Enquêtes Publiques</h2>
+                </div>
+                <div class="card-child">
+                    <a href="#">
+                        <img src="Images - Arnas\fleche.svg" class="fleche">
+                    </a>
+                </div>
+            </div>           
         </div>
+    </div>
+    <div class="bottom-body">
+        <div class="bottom-body-1">
+            <h1>Procédés à vos <span>démarches</span> !</h1>
+            <p>Accédez facilement à toutes les démarches administratives dont vous avez besoin grâce au bouton ci-dessous !</p>
+            <a href="Demarches-Arnas.php">démarches</a>
+        </div>
+        <div class="bottom-body-1">salut</div>
     </div>
 </body>
