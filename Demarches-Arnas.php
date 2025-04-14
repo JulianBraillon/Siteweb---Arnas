@@ -259,10 +259,18 @@
     </div>
     <div class="bottom-body">
         <div class="bottom-body-1">
-            <h1>Procédés à vos <span>démarches</span> !</h1>
-            <p>Accédez facilement à toutes les démarches administratives dont vous avez besoin grâce au bouton ci-dessous !</p>
-            <a href="Demarches-Arnas.php">démarches</a>
+            <h1>Plan Locale d'Urbanisme</h1>
+            <p>Le Plan Local d'Urbanisme (PLU) d’Arnas est un document qui encadre l’aménagement du territoire communal. Il définit les zones constructibles ou protégées et fixe les règles d’urbanisme pour chaque secteur. Le PLU vise à organiser le développement urbain tout en préservant l’environnement et le cadre de vie. Arnas participe aussi à l’élaboration d’un PLU intercommunal avec la Communauté d’Agglomération Villefranche Beaujolais Saône.</p>
+            <a href="https://www.agglo-villefranche.fr/le-plu-intercommunal.html">en savoir plus</a>
         </div>
-        <div class="bottom-body-1">salut</div>
+        <div class="bottom-body-1">
+            <h1>Compte Rendues du Conseil Municipale</h1>
+            <p>Les comptes rendus du Conseil Municipal d’Arnas sont des documents officiels qui résument les débats, décisions et délibérations prises lors des réunions du conseil. Ils permettent aux habitants de suivre la vie démocratique de la commune et d’être informés des projets, budgets, travaux ou règlements en cours. Ces comptes rendus sont consultables en ligne ou en mairie.</p>
+            <a href="Demarches-Arnas.php">en savoir plus</a>
+        </div>
     </div>
 </body>
+<footer>
+    <div class="footer">
+    </div>
+</footer>

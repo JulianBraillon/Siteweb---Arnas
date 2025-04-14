@@ -60,7 +60,7 @@ header {
 /* TOP-BODY */
 
 body{
-    height: 600vh;
+    height: 50vh;
   }
 .top-body{
     padding-top: 15vh;
@@ -110,7 +110,7 @@ body{
     display: flex;
 }
 .middle-body-1{
-    background-color: white;
+    background-color: rgba(0, 255, 0, 0.1);
     margin: 50px;
     border-radius: 40px;
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3); 
@@ -120,7 +120,7 @@ body{
     justify-content: space-between;
 }
 .middle-body-2{
-  background-color: white;
+  background-color: rgba(0, 255, 0, 0.1);
   margin: 50px;
   border-radius: 40px;
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3); 
@@ -157,6 +157,7 @@ body{
     color: black;
     gap: 15px;
     margin-bottom: 35px;
+    background-color: white;
 }
 .card-child{
     display: flex;
@@ -183,16 +184,50 @@ body{
   background: linear-gradient(135deg, rgb(43, 255, 43) 10%, rgb(0, 107, 0));
   color: white;
   width: 100%;
-  height: 70vh;
+  min-height: 40vh;
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 5%;
+  margin-bottom: 60px;
 }
 .bottom-body-1{
-  width: 45%;
+  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
+  text-align: justify;
+}
+.bottom-body-1 h1 {
+  font-size: 2em;
+  padding: 20px 5px 20px 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(0, 207, 0);
+  text-decoration: 2px rgb(0, 207, 0);
+}
+.bottom-body-1 a{
+  color: black;
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  border: 2px green solid;
+  margin-bottom: 20px;
+}
+.bottom-body-1 a:hover{
+  background-color: lightgreen;
+}
+
+/* FOOTER */
+
+footer{
+  background: black;
+  width: 100%;
+  height: 100%;
 }
