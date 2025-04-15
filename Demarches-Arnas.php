@@ -272,5 +272,14 @@
 </body>
 <footer>
     <div class="footer">
+    <div class="liste">
+        <div><a href="#">Accueil</a></div>
+        <div><a href="#">Vie Municipale</a></div>
+        <div><a href="#">Vie Quotidienne</a></div>
+        <div><a href="#">Démarches</a></div>
+    </div>
+    <div>mange mon zeub</div>
+    <div> oui</div>
+
     </div>
 </footer>
