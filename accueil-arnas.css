@@ -59,7 +59,7 @@ header {
 
 /* TOP-BODY */
 body{
-  height: 600vh;
+  min-height: 100vh;
 }
 .top-body{
   padding-top: 30vh;
@@ -347,6 +347,110 @@ body{
   background-color: pink;
   width: 100%;
   height: 50vw;
+}
+
+/* FOOTER */
+footer{
+  background: rgba(0, 0, 0, 0.95);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.footer{
+  width: 80%;
+  height: 75%;
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.liste{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.liste div{
+  color: white;
+  font-size: 15px;
+}
+.liste div a:hover{
+  color: lightgreen;
+  text-decoration: underline lightgreen;
+}
+.liste div{
+  margin-left: 20px;
+}
+.bottom-footer{
+  background-color: black;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bottom-footer-child{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-footer-child div{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.bottom-footer-child div span{
+  font-weight: 600;
+  font-size: 15px;
+}
+.bottom-footer-child div a,.liste div a{
+  color: white;
+  text-decoration: none;
+  text-decoration: underline rgba(0, 0, 0, 0);
+  transition: all 0.2s;
+}
+.bottom-footer-child div a:hover{
+  color: rgb(0, 161, 0);
+  text-decoration: underline rgb(0, 161, 0);
+}
+.map-container {
+  width: 100%;
+  height: 100%;
+  border: 4px white solid;
+}
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+table{
+  border: 2px white solid;
+  font-size: 15px;
+  color: white;
+}
+td{
+  border: 2px white solid;
+  padding: 2px;
+}
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-titre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
