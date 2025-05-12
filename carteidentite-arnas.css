@@ -1,0 +1,212 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+  width: 100%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2); 
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  column-gap: 40px;
+  height: 100%;
+  width: 85%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-right: 1px lightgray solid;
+  border-left: 1px lightgray solid;
+}
+.header a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.8vw;
+  border-bottom: 2px white solid;
+  transition: 0.2s ease;
+}
+#logoArnas{
+  width: 12.5%;
+}
+.logo{
+  width: 40px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+.header a:hover{
+  border-bottom: 2px green solid;
+  transform: scale(1.1);
+}
+
+/* BODY */
+.top-body{
+    padding-top: 15vh;
+    height: 100vh;
+}.img-body {
+    position: relative;
+    background-image: url('Images - Arnas/CarteIdentite.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.img-body h1{
+    z-index: 2;
+    color: white;
+    font-size: 5vw;
+    border-bottom: 4px green solid;
+}
+.img-body h2{
+    z-index: 2;
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 15px;
+    margin-top: 10%;
+}
+.body{
+  width: 60%;
+  margin-inline: auto;
+  margin-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.body h1, .body h2{
+  text-decoration: underline green;
+}
+
+/* FOOTER */
+
+footer{
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .footer{
+    width: 80%;
+    height: 75%;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .liste{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .liste div{
+    color: white;
+    font-size: 15px;
+  }
+  .liste div a:hover{
+    color: lightgreen;
+    text-decoration: underline lightgreen;
+  }
+  .liste div{
+    margin-left: 20px;
+  }
+  .bottom-footer{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-footer-child{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .bottom-footer-child div{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  .bottom-footer-child div span{
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .bottom-footer-child div a,.liste div a{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    transition: all 0.2s;
+  }
+  .bottom-footer-child div a:hover{
+    color: rgb(0, 161, 0);
+    text-decoration: underline rgb(0, 161, 0);
+  }
+  .map-container {
+    width: 100%;
+    height: 100%;
+    border: 4px white solid;
+  }
+  iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  table{
+    border: 2px white solid;
+    font-size: 15px;
+    color: white;
+  }
+  td{
+    border: 2px white solid;
+    padding: 2px;
+  }
+  .table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .table-titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

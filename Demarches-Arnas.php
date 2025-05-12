@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="demarches-arnas.css">
-    <title>Accueil - Arnas</title>
+    <title>Démarches - Arnas</title>
 </head>
 
 <header>
@@ -28,7 +28,7 @@
             <h1>
                 Démarches
             </h1>
-            <div href="#" class="card">
+            <div class="card">
                 <div class="card-child">
                     <img src="Images - Arnas\carte-didentite.png" class="img-middle-body">
                 </div>
@@ -36,12 +36,12 @@
                     <h2>Carte d'identité</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="CarteIdentite-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
             </div>
-            <div href="#" class="card">
+            <div class="card">
                 <div class="card-child">
                     <img src="Images - Arnas\Passeport.png" class="img-middle-body">
                 </div>
@@ -49,12 +49,12 @@
                     <h2>Passeport</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="Passeport-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
             </div>
-            <div href="#" class="card">
+            <div class="card">
                 <div class="card-child">
                     <img src="Images - Arnas\Carte-grise.png" class="img-middle-body">
                 </div>
@@ -62,7 +62,7 @@
                     <h2><span>Carte grise - Certificat d'immatriculation</span></h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="CarteGrise-CertificatImmatriculation-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -75,7 +75,7 @@
                     <h2>Subvention associations</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="SubventionAssociation-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -88,12 +88,12 @@
                     <h2>Subvention vélo</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="SubventionVelo-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
             </div>
-            <div href="#" class="card">
+            <div class="card">
                 <div class="card-child">
                     <img src="Images - Arnas\PACS.png" class="img-middle-body">
                 </div>
@@ -101,12 +101,12 @@
                     <h2>Pacte Civil de Solidarité (PACS)</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="PACS-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
             </div>
-            <div href="#" class="card">
+            <div class="card">
                 <div class="card-child">
                     <img src="Images - Arnas\Autorisation-sortie.png" class="img-middle-body">
                 </div>
@@ -114,7 +114,7 @@
                     <h2>Autorisation de sortie du territoire</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="AutorisationSortie-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -127,7 +127,7 @@
                     <h2>Consultations avocats</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="ConsultationAvocat-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -140,7 +140,7 @@
                     <h2><span>Cirques et spectacles itinérants</span></h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="CirqueSpectacle-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -153,7 +153,7 @@
                     <h2>Autres démarches</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="AutreDemarches-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -172,7 +172,7 @@
                     <h2>Arrêtés Municipaux</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="ArretesMunicipaux-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -185,7 +185,7 @@
                     <h2>Arrêtés Préféctoraux</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="ArretesPrefectoraux-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -198,7 +198,7 @@
                     <h2>Délibération du conseil municipale</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="Deliberation-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -211,7 +211,7 @@
                     <h2>Rapport d'activité</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="RapportActivites-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -224,12 +224,12 @@
                     <h2>Autorisation d'urbanisme</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="AutorisationUrbanisme-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
             </div>
-            <div href="#" class="card">
+            <div class="card">
                 <div class="card-child">
                     <img src="Images - Arnas\subvention.png" class="img-middle-body">
                 </div>
@@ -237,7 +237,7 @@
                     <h2>Subvention</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="Subvention-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -250,7 +250,7 @@
                     <h2>Enquêtes Publiques</h2>
                 </div>
                 <div class="card-child">
-                    <a href="#">
+                    <a href="EnquetesPubliques-Arnas.php">
                         <img src="Images - Arnas\fleche.svg" class="fleche">
                     </a>
                 </div>
@@ -266,7 +266,7 @@
         <div class="bottom-body-1">
             <h1>Compte Rendues du Conseil Municipale</h1>
             <p>Les comptes rendus du Conseil Municipal d’Arnas sont des documents officiels qui résument les débats, décisions et délibérations prises lors des réunions du conseil. Ils permettent aux habitants de suivre la vie démocratique de la commune et d’être informés des projets, budgets, travaux ou règlements en cours. Ces comptes rendus sont consultables en ligne ou en mairie.</p>
-            <a href="Demarches-Arnas.php">en savoir plus</a>
+            <a href="ComptesRendus-Arnas.php">en savoir plus</a>
         </div>
     </div>
 </body>
